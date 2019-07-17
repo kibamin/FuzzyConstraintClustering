@@ -5,7 +5,7 @@ import random
 
 def load_dataset(dataset_name):
 
-    path = "D:\learning\MS\Fuzzy\presentation\project\FuzzyConstraintClustering\datasets\\"+dataset_name
+    path = "datasets\\"+dataset_name
 
     if dataset_name == 'pendigits':
         pendigits = pd.read_csv(path + '.csv')
